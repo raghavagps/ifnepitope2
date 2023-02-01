@@ -1,7 +1,7 @@
 # **IFNepitope2**
-A computational approach to predict, scan, and design the host-specific IFN-Î³ inducing epitopes using the sequence information of the peptides.
+A computational approach to predict, scan, and design the host-specific IFN-γ inducing epitopes using the sequence information of the peptides.
 ## Introduction
-IFNepitope2 is an update of IFNepitope published by our group in 2013. It is developed to predict, scan, and, design the IFN-Î³ inducing peptides for human and mouse host, seperately, using sequence information only. In the standalone version, DPC based extra-tree classifier model is implemented alongwith the BLAST search, named it as hybrid approach.
+IFNepitope2 is an update of IFNepitope published by our group in 2013. It is developed to predict, scan, and, design the IFN-γ inducing peptides for human and mouse host, seperately, using sequence information only. In the standalone version, DPC based extra-tree classifier model is implemented alongwith the BLAST search, named it as hybrid approach.
 IFNepitope2 is also available as web-server at https://webs.iiitd.edu.in/raghava/ifnepitope2. Please read/cite the content about the IFNepitope2 for complete information including algorithm behind the approach.
 
 ## Standalone
@@ -20,7 +20,7 @@ To run the example, type the following command:
 ```
 python3 ifnepitope2.py -i example_input_human.fa
 ```
-This will predict if the submitted sequences are IFN-Î³ inducers or Non-inducer. It will use other parameters by default. It will save the output in "outfile.csv" in CSV (comma seperated variables).
+This will predict if the submitted sequences are IFN-γ inducers or Non-inducer. It will use other parameters by default. It will save the output in "outfile.csv" in CSV (comma seperated variables).
 
 ## Full Usage
 ```
@@ -52,7 +52,7 @@ optional arguments:
   -w {8,9,10,11,12,13,14,15,16,17,18,19,20}, --winleng {8,9,10,11,12,13,14,15,16,17,18,19,20}
                         Window Length: 8 to 20 (scan mode only), by default 8
   -d {1,2}, --display {1,2}
-                        Display: 1:IFN-Î³ inducers, 2: All peptides, by default 1
+                        Display: 1:IFN-γ inducers, 2: All peptides, by default 1
 ```
 
 **Input File:** It allow users to provide input in the FASTA format.
