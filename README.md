@@ -7,11 +7,11 @@ IFNepitope2 is also available as web-server at https://webs.iiitd.edu.in/raghava
 ## PIP Installation
 PIP version is also available for easy installation and usage of this tool. The following command is required to install the package 
 ```
-pip install ifnepitope22
+pip install ifnepitope2
 ```
 To know about the available option for the pip package, type the following command:
 ```
-ifnepitope22 -h
+ifnepitope2 -h
 ```
 ## Standalone
 The Standalone version of transfacpred is written in python3 and following libraries are necessary for the successful run:
