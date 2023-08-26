@@ -1,9 +1,18 @@
-# **IFNepitope2**
+# IFNepitope2
 A computational approach to predict, scan, and design the host-specific IFN-γ inducing epitopes using the sequence information of the peptides.
 ## Introduction
 IFNepitope2 is an update of IFNepitope published by our group in 2013. It is developed to predict, scan, and, design the IFN-γ inducing peptides for human and mouse host, seperately, using sequence information only. In the standalone version, DPC based extra-tree classifier model is implemented alongwith the BLAST search, named it as hybrid approach.
 IFNepitope2 is also available as web-server at https://webs.iiitd.edu.in/raghava/ifnepitope2. Please read/cite the content about the IFNepitope2 for complete information including algorithm behind the approach.
 
+## PIP Installation
+PIP version is also available for easy installation and usage of this tool. The following command is required to install the package 
+```
+pip install ifnepitope22
+```
+To know about the available option for the pip package, type the following command:
+```
+ifnepitope22 -h
+```
 ## Standalone
 The Standalone version of transfacpred is written in python3 and following libraries are necessary for the successful run:
 - scikit-learn
