@@ -27,9 +27,15 @@ To know about the available option for the parameter optimization, type the foll
 ```
 python3 param_opt.py -h
 ```
+
+To run the example, type the following command:
+```
+python3 param_opt.py --file example_param_opt_input_file.csv --classifier ALL --output example_param_opt_output_file.txt
+```
+
 To run the code with feature file, type the following command:
 ```
-python3 param_opt.py --file <feature file> --Classifer <Classifier Options>
+python3 param_opt.py --file <feature file> --classifer <Classifier Options>
 ```
 
 ## Minimum USAGE
