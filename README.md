@@ -30,7 +30,7 @@ python3 param_opt.py -h
 To run the code with feature file, type the following command:
 ```
 python3 param_opt.py --file <feature file> --Classifer ALL
-
+```
 
 ## Minimum USAGE
 To know about the available option for the stanadlone, type the following command:
