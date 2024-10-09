@@ -20,6 +20,18 @@ The Standalone version of transfacpred is written in python3 and following libra
 - Numpy
 - blastp
 
+## Parameter Optimzation
+For hyperparameter tuning, we implemented grid search with 5-fold stratified cross-validation across different classifiers, including Decision Trees (DT), Random Forest (RF), Logistic Regression (LR), XGBoost (XGB), K-Nearest Neighbors (KNN), Extra Trees (ET), and Support Vector Classifiers (SVC). Each model was optimized using a tailored parameter grid. The parameter grids were dynamically adjusted based on the data to ensure valid configurations during cross-validation. The best hyperparameters were selected based on the highest AUROC scores achieved during the tuning process. 
+
+To know about the available option for the parameter optimization, type the following command:
+```
+python3 param_opt.py -h
+```
+To run the code with feature file, type the following command:
+```
+python3 param_opt.py --file <feature file> --Classifer ALL
+
+
 ## Minimum USAGE
 To know about the available option for the stanadlone, type the following command:
 ```
