@@ -29,7 +29,7 @@ python3 param_opt.py -h
 ```
 To run the code with feature file, type the following command:
 ```
-python3 param_opt.py --file <feature file> --Classifer ALL
+python3 param_opt.py --file <feature file> --Classifer <Classifier Options>
 ```
 
 ## Minimum USAGE
