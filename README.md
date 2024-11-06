@@ -3,8 +3,10 @@ A computational approach to predict, scan, and design the host-specific IFN-γ i
 ## Introduction
 IFNepitope2 is an update of IFNepitope published by our group in 2013. It is developed to predict, scan, and, design the IFN-γ inducing peptides for human and mouse host, seperately, using sequence information only. In the standalone version, DPC based extra-tree classifier model is implemented alongwith the BLAST search, named it as hybrid approach.
 IFNepitope2 is also available as web-server at https://webs.iiitd.edu.in/raghava/ifnepitope2. Please read/cite the content about the IFNepitope2 for complete information including algorithm behind the approach.
-
+## Reference
+Reference: Dhall A, Patyal S, and Raghava GP (2024) A hybrid method for discovering interferon-gamma inducing peptides in human and mouse. Sci Rep. 14(1):26859.
 ## PIP Installation
+
 PIP version is also available for easy installation and usage of this tool. The following command is required to install the package 
 ```
 pip install ifnepitope2
